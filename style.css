@@ -1,7 +1,7 @@
 img
 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 #title
 {
@@ -9,11 +9,34 @@ img
 }
 body
 {
-    background-color:cornflowerblue;
+    background-color:rgb(22, 181, 255);
 }
 #test
 {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 225px;
     border-radius: 20px;
+    box-shadow: 5px 5px 18px black;
+}
+.text_images_and_result
+{
+    box-shadow: 5px 5px 18px black;
+    width: 80%;
+    height: 400px;
+}
+
+
+
+
+
+
+.copy-right-footer
+{
+    position: fixed;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    background:darkslateblue;
+    line-height: 3;
+    text-align: center;  
 }
